@@ -1,5 +1,7 @@
 # Little Login Manager
 
+![](https://github.com/Cottin/little-login-manager/blob/master/docs/llm1.gif)
+
 If you're joggling lots of accounts to test software or for other reasons and think the existing Password Management software is too complex, try out this super-simple apple script!
 
 ## Keyboard short-cut to the login manager
