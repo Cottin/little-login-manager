@@ -16,7 +16,7 @@ set frontApp to (path to frontmost application as Unicode text)
 -- map logins to names
 set names to {}
 repeat with name in logins
-	set end of names to (get item 1 in name) & " / " & (get item 2 in name)
+	set end of names to (get item 1 in name)
 end repeat
 
 activate
@@ -51,11 +51,11 @@ end tell
 delay 0.2 + debugDelay
 
 
-my stroke((get item 2 in chosenLogin))
+my stroke((get item 1 in chosenLogin))
 delay 0.2 + debugDelay
 tell application "System Events" to keystroke tab
 
-my stroke((get item 3 in chosenLogin))
+my stroke((get item 2 in chosenLogin))
 delay 0.2 + debugDelay
 tell application "System Events" to keystroke tab
 
