@@ -1,11 +1,11 @@
 set logins to {}
 
 -- description, username, password
-set end of logins to {"Test account manager", "manager@ourapp.com", "test98"}
-set end of logins to {"Test account boss", "boss@ourapp.com", "asdqwe1"}
-set end of logins to {"Test account staff", "staff@ourapp.com", "qweasdzxc"}
-set end of logins to {"Business account", "john.doe@alfatech.com", "MySuperPassword"}
-set end of logins to {"Private account", "john.doe@gmail.com", "SuperPassword123"}
+set end of logins to {"manager@ourapp.com", "test98"}
+set end of logins to {"boss@ourapp.com", "asdqwe1"}
+set end of logins to {"staff@ourapp.com", "qweasdzxc"}
+set end of logins to {"john.doe@alfatech.com", "MySuperPassword"}
+set end of logins to {"john.doe@gmail.com", "SuperPassword123"}
 
 
 -- to make script move slower so you can see what happens, set debugDelay to 1
